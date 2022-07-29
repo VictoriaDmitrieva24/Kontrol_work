@@ -12,7 +12,7 @@ for (int i = 0; i < words.Length; i++)
 string result = string.Empty;
 if (words[i].Length <= 3) 
 {
-    result = result + words[i];
-    Console.Write(result + " ");
+result = result + words[i];
+Console.Write(result + " ");
 }
 }
